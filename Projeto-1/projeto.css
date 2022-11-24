@@ -1,0 +1,191 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:#253342;
+}
+
+.div-conversor {
+    height: 97vh;
+    width: 303px;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 15px;
+    border: solid;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    border-color: yellowgreen;
+    background-color: #fff5d6;
+}
+
+header {
+    height: 8vh;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: yellowgreen;   
+}
+
+h1 {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 27px;
+    font-weight: lighter;
+    text-align: center;
+    text-shadow: 15px 10px 15px;
+    padding-top: 8px;
+}
+
+b {
+    font-style: italic;
+    color: black;
+}
+
+.label-1 {
+    font-weight: bolder;
+    margin-left: 37px;
+    position: relative;
+    top: 33px;
+    right: 3px;
+    color: yellowgreen;
+}
+
+.real-brasileiro {
+    height: 5vh;
+    width: 17vw;
+    padding-left: 5px;
+    position: relative;
+    top: 10px;
+    left: 36px;
+    outline: none; 
+    box-shadow: 2px 2px  5px;
+}
+
+.label-2 {
+    font-weight: bolder;
+    margin-left: 67px;
+    position: relative;
+    top: 55px;
+    right: 33px;
+    color: yellowgreen;
+}
+
+.dólar-americano {
+    height: 5vh;
+    width: 17vw;
+    padding-left: 5px;
+    position: relative;
+    top: 10px;
+    left: 66px;
+    outline: none;
+    box-shadow: 2px 2px 5px;
+}
+
+.label-3 {
+    font-weight: bolder;
+    margin-left: 67px;
+    position: relative;
+    top: 80px;
+    right: 33px;
+    color: yellowgreen;
+}
+
+.valor {
+    height: 5vh;
+    width: 17vw;
+    padding-left: 7px;
+    position: relative;
+    top: 10px;
+    left: 66px;
+    outline: none;
+}
+
+button {
+    height: 30px;
+    width: 180px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    position: relative;
+    top: 120px;
+    left: 61px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: yellowgreen;
+}
+
+button:hover {
+    color: white;
+}
+
+button:active {
+    opacity: 0.7;
+}
+
+section {
+    height: 37vh;
+    width: 20vw;
+    margin-top: 140px;
+    margin-left: 120px;
+    position: relative;
+    right: 108px;
+    border: 2px solid;
+    border-radius: 5px;
+    border-color: yellowgreen;
+    background-color: white;
+}
+
+.brasil {
+    height: 35px;
+    margin-left: 115px;
+    position: relative;
+    top: 10px;
+    background-color: transparent;
+}
+
+.real {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    margin-left: 117px;
+    position: relative;
+    top: 14px;
+}
+
+.valor-real {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    margin-left: 88px;
+    position: relative;
+    top: 15px;
+}
+
+.seta {
+    height: 47px;
+    margin-left: 108px;
+    position: relative;
+    top: 16px;
+}
+
+.eua {
+    height: 37px;
+    margin-left: 111px;
+    position: relative;
+    top: 18px;
+}
+
+.dolar {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    position: relative;
+    top: 19px;
+    left: 67px;
+}
+
+.valor-dolar {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+    margin-top: 20px;
+    margin-left: 88px;
+}
+
